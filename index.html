@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UIT RGPV Clone</title>
+
+<link rel="stylesheet" href="output.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Top Bar -->
+<div class="bg-orange-500 text-white px-8 py-2 flex justify-between items-center">
+
+<div class="flex gap-4 text-xl">
+<i class="fa-brands fa-facebook cursor-pointer hover:text-blue-300"></i>
+<i class="fa-brands fa-youtube cursor-pointer hover:text-red-400"></i>
+</div>
+
+<div class="cursor-pointer hover:text-yellow-300">
+Screen Reader
+</div>
+
+</div>
+
+
+<!-- Header -->
+<header class="bg-white shadow-lg flex items-center justify-center gap-6 px-8 py-4">
+
+<img 
+src="rgpv-logo.jpg"
+class="w-24 h-24 object-contain"
+>
+
+<div class="text-center">
+
+<h1 class="text-3xl font-bold text-blue-900">
+UNIVERSITY INSTITUTE OF TECHNOLOGY, RGPV
+</h1>
+
+<p class="text-gray-600 mt-2">
+Constituent College of RGPV
+</p>
+
+</div>
+
+</header>
+
+
+
+
+<!-- Navbar -->
+
+<nav class="bg-gray-700 text-white shadow-md relative z-50">
+<ul class="flex justify-center gap-8 py-4 font-semibold text-sm">
+
+<!-- Home -->
+<li class="cursor-pointer hover:text-yellow-300">
+<div class="flex items-center">
+Home
+</div>
+</li>
+
+
+<!-- About -->
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+About
+<i class="fa-solid fa-chevron-down text-xs"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">About UIT</p>
+<p class="px-4 py-2 hover:bg-gray-100">Vision</p>
+<p class="px-4 py-2 hover:bg-gray-100">Mission</p>
+
+</div>
+
+</li>
+
+
+<!-- Departments -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Departments
+<i class="fa-solid fa-chevron-down text-xs"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">CSE</p>
+<p class="px-4 py-2 hover:bg-gray-100">IT</p>
+<p class="px-4 py-2 hover:bg-gray-100">Mechanical</p>
+<p class="px-4 py-2 hover:bg-gray-100">Civil</p>
+
+</div>
+
+</li>
+
+
+<!-- Admission -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Admission
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">UG</p>
+<p class="px-4 py-2 hover:bg-gray-100">PG</p>
+<p class="px-4 py-2 hover:bg-gray-100">Fees</p>
+
+</div>
+
+</li>
+
+
+<!-- Academics -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Academics
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">Courses</p>
+<p class="px-4 py-2 hover:bg-gray-100">Calendar</p>
+
+</div>
+
+</li>
+
+
+<!-- Faculty -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Faculty
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">Professors</p>
+<p class="px-4 py-2 hover:bg-gray-100">Staff</p>
+
+</div>
+
+</li>
+
+
+<!-- Research -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Research
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">Projects</p>
+<p class="px-4 py-2 hover:bg-gray-100">Labs</p>
+
+</div>
+
+</li>
+
+
+<!-- Placements -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Placements
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">Companies</p>
+<p class="px-4 py-2 hover:bg-gray-100">Statistics</p>
+
+</div>
+
+</li>
+
+
+<!-- Campus -->
+
+<li class="relative group cursor-pointer">
+
+<div class="flex items-center gap-2 hover:text-yellow-300">
+Campus
+<i class="fa-solid fa-chevron-down"></i>
+</div>
+
+<div class="absolute hidden group-hover:block top-full left-0 mt-2 bg-white text-black w-44 rounded shadow-lg z-[100]">
+
+<p class="px-4 py-2 hover:bg-gray-100">Events</p>
+<p class="px-4 py-2 hover:bg-gray-100">Facilities</p>
+
+</div>
+
+</li>
+
+
+<!-- Contact -->
+
+<li class="cursor-pointer hover:text-yellow-300">
+
+<div class="flex items-center">
+Contact
+</div>
+
+</li>
+
+</ul>
+</nav>
+
+
+<!-- Hero Section -->
+
+<section class="relative h-screen overflow-hidden">
+
+<!-- Image Slider -->
+<div class="slider h-full relative">
+
+<img class="slide absolute w-full h-full object-cover opacity-100 transition-all duration-1000"
+src="images/img1.jpg">
+
+<img class="slide absolute w-full h-full object-cover opacity-0 transition-all duration-1000"
+src="images/img2.jpg">
+
+<img class="slide absolute w-full h-full object-cover opacity-0 transition-all duration-1000"
+src="images/img3.jpg">
+
+</div>
+
+
+<!-- Dark Overlay -->
+
+<div class="absolute inset-0 bg-black/40"></div>
+
+
+<!-- Main Center Text -->
+
+<div class="absolute inset-0 flex flex-col justify-center items-center text-white z-10">
+
+<h1 class="text-5xl font-bold mb-4 text-center">
+University Institute Of Technology, RGPV
+</h1>
+
+<p class="text-xl mb-6">
+Innovation • Learning • Excellence
+</p>
+
+<button class="bg-yellow-400 text-black px-6 py-3 rounded-lg font-bold hover:scale-110 transition">
+
+Explore Campus
+
+</button>
+
+</div>
+
+
+
+
+<!-- Bottom Right Welcome Card -->
+
+<div class="absolute bottom-8 right-8 z-20
+bg-gradient-to-r from-blue-950/90 to-cyan-900/90
+text-white px-10 py-5 rounded-lg
+shadow-2xl max-w-3xl">
+
+<p class="text-lg mb-2">
+Welcome to
+</p>
+
+<h1 class="text-4xl font-bold leading-tight">
+University Institute of Technology, RGPV
+</h1>
+
+</div>
+
+
+
+<!-- Left Slide Button -->
+
+<button id="prev"
+class="absolute left-5 top-1/2 -translate-y-1/2 z-20 bg-white/30 backdrop-blur-md p-4 rounded-full text-white hover:scale-110 transition">
+
+<i class="fa-solid fa-chevron-left"></i>
+
+</button>
+
+
+<!-- Right Slide Button -->
+
+<button id="next"
+class="absolute right-5 top-1/2 -translate-y-1/2 z-20 bg-white/30 backdrop-blur-md p-4 rounded-full text-white hover:scale-110 transition">
+
+<i class="fa-solid fa-chevron-right"></i>
+
+</button>
+
+</section>
+
+
+
+
+<!-- Next Section -->
+
+<section class="bg-gray-100 py-16 px-8">
+
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+
+<!-- Left Part -->
+
+<div class="border-l-4 border-red-500 pl-6">
+
+<p class="text-gray-800 text-xl leading-10">
+
+UIT-RGPV, Bhopal is a community of teachers, staff & students, who are dedicated to the achievement of a shared vision of excellence. The community believes in renewing and transferring knowledge & skills and the development of positive & purposeful attitudes and values.
+
+<br><br>
+
+The Institution is situated in Bhopal, a city well known for its natural beauty & lakes. The city is well connected to the other parts of the country by air, rail, and road.
+
+</p>
+
+
+<div class="flex items-center gap-5 mt-10">
+
+<div class="bg-red-500 w-12 h-12 rounded-full flex justify-center items-center text-white hover:scale-110 transition cursor-pointer">
+
+<i class="fa-solid fa-chevron-right"></i>
+
+</div>
+
+<p class="font-semibold text-lg cursor-pointer hover:text-red-500">
+READ MORE
+</p>
+
+</div>
+
+</div>
+
+
+
+<!-- Right Part -->
+
+<div class="grid grid-cols-2 gap-6">
+
+<!-- Card 1 -->
+
+<div class="bg-white p-10 border hover:-translate-y-3 hover:shadow-2xl transition duration-500 cursor-pointer text-center">
+
+<div class="w-20 h-20 rounded-full border mx-auto flex justify-center items-center text-red-500 text-4xl mb-5">
+
+<i class="fa-regular fa-file-lines"></i>
+
+</div>
+
+<h2 class="text-2xl font-semibold">
+Information Brochure
+</h2>
+
+</div>
+
+
+
+<!-- Card 2 -->
+
+<div class="bg-white p-10 border hover:-translate-y-3 hover:shadow-2xl transition duration-500 cursor-pointer text-center">
+
+<div class="w-20 h-20 rounded-full border mx-auto flex justify-center items-center text-red-500 text-4xl mb-5">
+
+<i class="fa-solid fa-book-open"></i>
+
+</div>
+
+<h2 class="text-2xl font-semibold">
+E-Library
+</h2>
+
+</div>
+
+
+
+<!-- Card 3 -->
+
+<div class="bg-white p-10 border hover:-translate-y-3 hover:shadow-2xl transition duration-500 cursor-pointer text-center">
+
+<div class="w-20 h-20 rounded-full border mx-auto flex justify-center items-center text-red-500 text-4xl mb-5">
+
+<i class="fa-solid fa-book"></i>
+
+</div>
+
+<h2 class="text-2xl font-semibold">
+Departmental Magazine
+</h2>
+
+</div>
+
+
+
+<!-- Card 4 -->
+
+<div class="bg-white p-10 border hover:-translate-y-3 hover:shadow-2xl transition duration-500 cursor-pointer text-center">
+
+<div class="w-20 h-20 rounded-full border mx-auto flex justify-center items-center text-red-500 text-4xl mb-5">
+
+<i class="fa-solid fa-user-graduate"></i>
+
+</div>
+
+<h2 class="text-2xl font-semibold">
+Alumni
+</h2>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- page 3 -->
+<script>
+// javascript for sliders
+// =========================
+// FIRST SLIDER (existing fade slider)
+// =========================
+
+let slides = document.querySelectorAll(".slide");
+
+let current = 0;
+
+function showSlide(index){
+
+    slides.forEach(slide=>{
+
+        slide.classList.remove("opacity-100");
+        slide.classList.add("opacity-0");
+
+    });
+
+    slides[index].classList.remove("opacity-0");
+    slides[index].classList.add("opacity-100");
+
+}
+
+function nextMainSlide(){
+
+    current++;
+
+    if(current >= slides.length){
+
+        current = 0;
+
+    }
+
+    showSlide(current);
+
+}
+
+function prevMainSlide(){
+
+    current--;
+
+    if(current < 0){
+
+        current = slides.length-1;
+
+    }
+
+    showSlide(current);
+
+}
+
+
+document.getElementById("next")
+?.addEventListener("click",nextMainSlide);
+
+document.getElementById("prev")
+?.addEventListener("click",prevMainSlide);
+
+setInterval(nextMainSlide,3000);
+
+
+// =========================
+// THIRD PAGE CARD SLIDER
+// =========================
+
+
+
+
+</script>
+</body>
+</html>
